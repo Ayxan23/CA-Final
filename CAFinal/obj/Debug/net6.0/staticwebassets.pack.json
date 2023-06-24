@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\profilfotom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\322d4ac1-2ac0-412b-b1aa-e0d494b2c57e-cat-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\322d4ac1-2ac0-412b-b1aa-e0d494b2c57e-cat-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\4f0a46a2-c70c-4095-b4b5-31120b4d0311-bg-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\4f0a46a2-c70c-4095-b4b5-31120b4d0311-bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\4f12d028-3f04-4f83-aa2e-05f390d336f4-product-09-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\4f12d028-3f04-4f83-aa2e-05f390d336f4-product-09-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\53c5b633-962c-49c7-ae87-5a389572d79a-cat-3-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\53c5b633-962c-49c7-ae87-5a389572d79a-cat-3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\5aafe028-8999-4351-987d-21dd70f2776d-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\5aafe028-8999-4351-987d-21dd70f2776d-product-06-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\5dda9018-3241-4d4b-9c19-07364de35783-product-09-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\5dda9018-3241-4d4b-9c19-07364de35783-product-09-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9f2361c4-f2c4-4efe-badf-09c002f41a20-cat-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\9f2361c4-f2c4-4efe-badf-09c002f41a20-cat-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\a47b0984-9e3f-4f2c-ab1b-6d98e32c0c09-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\a47b0984-9e3f-4f2c-ab1b-6d98e32c0c09-product-06-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\a7083688-2af7-4a7a-8c78-2b081ac8cd5a-hero-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\a7083688-2af7-4a7a-8c78-2b081ac8cd5a-hero-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\c9707c8c-80e7-481d-957d-90a3dc12961c-product-15-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c9707c8c-80e7-481d-957d-90a3dc12961c-product-15-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\cat-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cat-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\cat-3-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cat-3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\cat-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cat-4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\d27af1c2-dd75-4797-b054-90f0e0c7085f-cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\d27af1c2-dd75-4797-b054-90f0e0c7085f-cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\db014e87-02fc-4b0a-8bb2-b9a8201f1880-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\db014e87-02fc-4b0a-8bb2-b9a8201f1880-product-06-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\e51d1437-e185-4064-95f9-0071aadfeb4c-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\e51d1437-e185-4064-95f9-0071aadfeb4c-product-06-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f1b1e156-e594-483d-8a25-09c28b7f4e9e-cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f1b1e156-e594-483d-8a25-09c28b7f4e9e-cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f3ed23fc-4b1a-4beb-8af2-37834dc7b776-cat-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f3ed23fc-4b1a-4beb-8af2-37834dc7b776-cat-4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f607cfc7-0660-484a-995e-32e07eb1d1f4-bgweb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f607cfc7-0660-484a-995e-32e07eb1d1f4-bgweb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\hero-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\hero-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\hero-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\hero-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\logo-regular.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-regular.png"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-01-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-01-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-06-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-09-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-09-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-14-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-14-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-15-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-15-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\product-16-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-16-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\prod_detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\prod_detail.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\prod_price.js",
+      "PackagePath": "staticwebassets\\assets\\js\\prod_price.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\templates\\template.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\template.html"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\backend\\js\\backend.js",
+      "PackagePath": "staticwebassets\\backend\\js\\backend.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CAFinal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CAFinal.props",
+      "PackagePath": "build\\CAFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CAFinal.props",
+      "PackagePath": "buildMultiTargeting\\CAFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CAFinal.props",
+      "PackagePath": "buildTransitive\\CAFinal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

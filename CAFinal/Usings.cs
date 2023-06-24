@@ -1,0 +1,21 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using MailKit.Net.Smtp;
+global using MimeKit;
+global using CAFinal.ViewModels;
+global using MailKit.Security;
+global using Microsoft.AspNetCore.Identity;
+global using CAFinal.Models;
+global using CAFinal.Models.Common;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using CAFinal.Contexts;
+global using Microsoft.VisualBasic;
+global using Constants = CAFinal.Utils.Constants;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Data;
+global using CAFinal.Areas.Admin.ViewModels;
+global using CAFinal.Utils.Enums;
+global using CAFinal.Utils;
+

@@ -1,0 +1,50 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Shop";
+}
+<!-- Shop Start -->
+<div class="container">
+    <div class="cart_title">
+        <h2 class="title_h2">Shop</h2>
+        <div class="main_title_line"></div>
+    </div>
+    <section class="shop">
+        <div class="category_shop">
+            <div class="category_list">
+                <div class="category_list_top"><h2>Categories</h2></div>
+                <div class="category_list_bottom">
+                    <p><a asp-action="Index">All <span class="category_span">@ViewBag.All</span></a></p>
+                    @foreach (var category in ViewBag.ShopCategories)
+                    {
+                        <p><a asp-route-categoryId="@category.Id" asp-action="Index">@category.Name <span class="category_span">@category.ProductCategories.Count</span></a></p>
+                    }
+                </div>
+            </div>
+        </div>
+        <input hidden value="@ViewBag.ProductsCount" id="productCount" />
+        <div class="products_boxes" id="productList">
+            @foreach (var product in Model)
+            {
+                <a asp-action="Detail" asp-route-id="@product.Id">
+                    <div class="product_box">
+                        <div class="product_box_img">
+                            <img src="~/assets/img/@product.Image" alt="product" />
+                        </div>
+                        <div class="product_box_text">
+                            <h2>@product.Name</h2>
+                            <p class="price_prod">$@product.Price</p>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    </section>
+    @if (ViewBag.ProductsCount > 6)
+    {
+        <div class="login_button" style="display:flex; justify-content:center; margin-top: -30px; margin-bottom:40px">
+            <button type="button" id="loadMoreBtn" style="width: unset">Load More</button>
+        </div>
+    }
+</div>
+<!-- Shop End -->
+<script src="~/assets/js/prod_price.js"></script>

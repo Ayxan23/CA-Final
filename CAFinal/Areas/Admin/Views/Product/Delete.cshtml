@@ -1,0 +1,29 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Product Delete";
+}
+<div class="info_box">
+    <div style="width:400px; height:auto">
+        <img src="~/assets/img/@Model.Image" style="width:100%; max-height: auto" />
+    </div>
+
+    <div style="color: dimgray;">
+        <h2>Name: @Model.Name</h2>
+        <h3>Description: @Html.Raw(@Model.Description)</h3>
+        <h3>Price: @Model.Price</h3>
+    </div>
+    <div style="list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
+        <h3>Categories:</h3>
+        @foreach (var item in Model.ProductCategories)
+        {
+            <h4>@item.Category.Name;</h4>
+        }
+    </div>
+
+    <div style="display: flex; gap: 15px">
+        <a class="btn btn-info" asp-action="Index">Go Back</a>
+        <form method="post">
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+</div>

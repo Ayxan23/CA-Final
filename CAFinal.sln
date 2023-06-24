@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAFinal", "CAFinal\CAFinal.csproj", "{F68B2554-0FB2-4D03-9C97-A290990983BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68B2554-0FB2-4D03-9C97-A290990983BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68B2554-0FB2-4D03-9C97-A290990983BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68B2554-0FB2-4D03-9C97-A290990983BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68B2554-0FB2-4D03-9C97-A290990983BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61E42F56-94A2-4BFF-9B01-A52F5992E0B1}
+	EndGlobalSection
+EndGlobal

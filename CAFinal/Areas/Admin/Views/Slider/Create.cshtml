@@ -1,0 +1,41 @@
+﻿@model SliderViewModel
+@{
+    ViewData["Title"] = "Slider Create";
+}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Slider Create</h4>
+
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="Image">Image</label>
+                            <input class="form-control" asp-for="Image" placeholder="Image" accept="image/*">
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Title">Title</label>
+                            <input class="form-control" asp-for="Title" placeholder="Title">
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Offer">Offer</label>
+                            <input class="form-control" asp-for="Offer" placeholder="Offer">
+                            <span asp-validation-for="Offer" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Description">Description</label>
+                            <textarea class="form-control" id="editor" asp-for="Description" placeholder="Description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Create</button>
+                        <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

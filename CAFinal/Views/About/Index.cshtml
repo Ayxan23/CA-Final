@@ -1,0 +1,25 @@
+﻿@model List<About>
+@{
+    ViewData["Title"] = "About";
+}
+<!-- AboutUs Start -->
+<div class="container">
+    <section class="about">
+        <div class="main_title">
+            <h6 class="title_h6">About us</h6>
+            <h2 class="title_h2">Our story</h2>
+            <div class="main_title_line"></div>
+        </div>
+        @foreach (var about in Model)
+        {
+            <div class="about_bg">
+                <img src="~/assets/img/@about.Image" alt="about_bg" />
+            </div>
+            <div class="about_text">
+                <h2>@about.Title</h2>
+                <p>@Html.Raw(@about.Description)</p>
+            </div>
+        }
+    </section>
+</div>
+<!-- AboutUs End -->

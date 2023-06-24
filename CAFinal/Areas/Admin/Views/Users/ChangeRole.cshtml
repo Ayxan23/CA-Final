@@ -1,0 +1,29 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Change Role";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Change Role</h4>
+                    <form class="forms-sample" method="post">
+                        <div class="form-group">
+                            <label for="Role">Role</label>
+                            <select class="form-control" asp-for="Role">
+                                @foreach (IdentityRole role in ViewBag.Roles)
+                                {
+                                    <option value="@role.Name">@role.Name</option>
+                                }
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning mr-2">Change Role</button>
+                        <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

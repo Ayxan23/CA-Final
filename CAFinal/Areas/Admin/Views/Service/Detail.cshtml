@@ -1,0 +1,16 @@
+﻿@model Service
+@{
+    ViewData["Title"] = "Service Detail";
+}
+<div class="info_box">
+    <div style="color: dimgray;">
+        <h2>Title: @Model.Title</h2>
+        <h3>Description: @Html.Raw(@Model.Description)</h3>
+        <h3>Icon className: @Model.Icon</h3>
+    </div>
+
+    <div style="display: flex; gap: 15px;">
+        <a class="btn btn-info" asp-action="Index">Go Back</a>
+    </div>
+</div>
+

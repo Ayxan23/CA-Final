@@ -1,0 +1,15 @@
+﻿@model List<Product>
+@foreach (var product in Model)
+{
+    <a asp-action="Detail" asp-route-id="@product.Id">
+        <div class="product_box">
+            <div class="product_box_img">
+                <img src="~/assets/img/@product.Image" alt="product" />
+            </div>
+            <div class="product_box_text">
+                <h2>@product.Name</h2>
+                <p>$@product.Price</p>
+            </div>
+        </div>
+    </a>
+}

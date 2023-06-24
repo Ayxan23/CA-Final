@@ -1,0 +1,62 @@
+﻿@model Dictionary<string, string>
+@{
+    Layout = null;
+}
+<!-- Header Start -->
+<header class="home_header">
+    <form class="search" id="search">
+        <input autocomplete="off"
+               class="search_input"
+               type="search"
+               placeholder="Search..."
+               name="search" />
+    </form>
+    <div class="container">
+        <nav class="header_nav">
+            <div class="header_logo">
+                <a asp-action="Index" asp-controller="Home">
+                    <img src="~/assets/img/@*@Model["HeaderLogo"]*@" alt="header_logo" />
+                </a>
+            </div>
+            <ul class="header_ul">
+                <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Home" ? "hd_color" : "")"><a asp-action="Index" asp-controller="Home">HOME</a></li>
+                <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Shop" ? "hd_color" : "")"><a asp-action="Index" asp-controller="Shop">SHOP ALL</a></li>
+                <li class="@((string?)ViewContext.RouteData.Values["controller"] == "About" ? "hd_color" : "")"><a asp-action="Index" asp-controller="About">ABOUT US</a></li>
+                <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Contact" ? "hd_color" : "")"><a asp-action="Index" asp-controller="Contact">CONTACT</a></li>
+                @if (!ViewBag.IsLog)
+                {
+                    <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Account" ? "hd_color" : "")"><a asp-controller="Account" asp-action="Login">LOGIN</a></li>
+                }
+                @if (ViewBag.IsLog)
+                {
+                    <li class="user_name">@ViewBag.UserName</li>
+                    @if (!ViewBag.AdminAccess)
+                    {
+                        <li><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">ADMIN</a></li>
+                    }
+                    <li><a asp-controller="Account" asp-action="Logout">LogOut</a></li>
+                }
+            </ul>
+            <ul class="basket_ul">
+                @if ((string?)ViewContext.RouteData.Values["controller"] == "Shop")
+                {
+                    <li class="search_li">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                }
+                <li class="search_li" style="display: none">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li>
+                    <a href="./html/cart.html">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </a>
+                </li>
+                <li class="bars_li">
+                    <i class="fa-solid fa-bars"></i>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Header End -->

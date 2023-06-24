@@ -1,0 +1,14 @@
+﻿@model Setting
+@{
+    ViewData["Title"] = "Setting Detail";
+}
+<div class="info_box">
+    <div style="color: dimgray;">
+        <h2>Key: @Model.Key</h2>
+        <h3>Vaule: @Model.Value</h3>
+    </div>
+
+    <div style="display: flex; gap: 15px">
+        <a class="btn btn-info" asp-action="Index">Go Back</a>
+    </div>
+</div>
