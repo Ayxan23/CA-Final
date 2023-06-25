@@ -47,8 +47,8 @@
                 <li class="search_li" style="display: none">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </li>
-                <li>
-                    <a href="./html/cart.html">
+                <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Basket" ? "hd_color" : "")">
+                    <a asp-action="Index" asp-controller="Basket">
                         <i class="fa-solid fa-basket-shopping"></i>
                     </a>
                 </li>

@@ -1,4 +1,5 @@
-﻿using CAFinal.Models;
+﻿using CAFinal.Areas.Admin.ViewModels;
+using CAFinal.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace CAFinal.Controllers
@@ -33,10 +34,23 @@ namespace CAFinal.Controllers
             ViewBag.ShopCategories = await _context.Categories.Include(c => c.ProductCategories).ThenInclude(pc => pc.Product).ToListAsync();
             ViewBag.All = _context.Products.ToList().Count;
 
+            var userName = HttpContext?.User?.Identity?.Name;
+            if (userName != null)
+            {
+                var user = await _userManager.FindByNameAsync(userName);
+                var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (countFind != null)
+                {
+                    countFind.CountNum = 1;
+                    await _context.SaveChangesAsync();
+                }
+            }
+
             return View(products);
         }
 
-        public async Task<IActionResult> Detail(int id, int count)
+        [Authorize]
+        public async Task<IActionResult> Detail(int id, string count)
         {
             var product = await _context.Products.Include(p => p.ProductCategories).ThenInclude(pc => pc.Category).FirstOrDefaultAsync(p => p.Id == id);
 
@@ -48,12 +62,67 @@ namespace CAFinal.Controllers
                 Product = product,
                 Categories = await _context.Categories.Include(c => c.ProductCategories).ThenInclude(pc => pc.Product).ToListAsync(),
             };
-            if (count == 0)
+
+            var userName = HttpContext?.User?.Identity?.Name;
+            if (userName != null && count == null)
             {
-                count = 1;
+                var user = await _userManager.FindByNameAsync(userName);
+                var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (countFind != null)
+                {
+                    ViewBag.ProdCount = countFind.CountNum;
+
+                }
+                else
+                {
+                    ViewBag.ProdCount = 1;
+                }
             }
-        
-            ViewBag.ProdCount = count;
+            if (userName != null && count == "+")
+            {
+                var user = await _userManager.FindByNameAsync(userName);
+                var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (countFind is null)
+                {
+                    Count countItem = new()
+                    {
+                        UserId = user.Id,
+                        CountNum = 2,
+                    };
+                    ViewBag.ProdCount = countItem.CountNum;
+                    await _context.Counts.AddAsync(countItem);
+                }
+                else
+                {
+                    countFind.CountNum++;
+                    ViewBag.ProdCount = countFind.CountNum;
+                }
+                await _context.SaveChangesAsync();
+            }
+            if (userName != null && count == "-")
+            {
+                var user = await _userManager.FindByNameAsync(userName);
+                var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (countFind is null)
+                {
+                    Count countItem = new()
+                    {
+                        UserId = user.Id,
+                        CountNum = 2,
+                    };
+                    ViewBag.ProdCount = countItem.CountNum;
+                    await _context.Counts.AddAsync(countItem);
+                }
+                else
+                {
+                    if (countFind.CountNum > 1)
+                    {
+                        countFind.CountNum--;
+                    }
+                    ViewBag.ProdCount = countFind.CountNum;
+                }
+                await _context.SaveChangesAsync();
+            }
 
             return View(productCategoryViewModel);
         }
@@ -62,7 +131,7 @@ namespace CAFinal.Controllers
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Detail))]
         [Authorize]
-        public async Task<IActionResult> DetailPost(int id, int count)
+        public async Task<IActionResult> DetailPost(int id, int prodCount)
         {
             var product = await _context.Products.Include(p => p.ProductCategories).ThenInclude(pc => pc.Category).FirstOrDefaultAsync(p => p.Id == id);
 
@@ -75,22 +144,45 @@ namespace CAFinal.Controllers
                 Categories = await _context.Categories.Include(c => c.ProductCategories).ThenInclude(pc => pc.Product).ToListAsync(),
             };
 
-            Basket basket = new()
-            {
-                ProductId = product.Id,
-                IsPay = false,
-                Count = count,
-            };
-
             var userName = HttpContext?.User?.Identity?.Name;
-            if (userName != null)
+            var basketFind = await _context.Baskets.FirstOrDefaultAsync(c => c.ProductId == product.Id);
+            if (basketFind != null)
             {
-                var user = await _userManager.FindByNameAsync(userName);
-                string userId = user.Id;
-                basket.AppUserId = userId;
+                basketFind.Count += prodCount;
+                if (userName != null)
+                {
+                    var user = await _userManager.FindByNameAsync(userName);
+                    var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                    if (countFind != null)
+                    {
+                        countFind.CountNum = 1;
+                        ViewBag.ProdCount = countFind.CountNum;
+                    }
+                }
             }
+            else
+            {
+                Basket basket = new()
+                {
+                    ProductId = product.Id,
+                    IsPay = false,
+                    Count = prodCount,
+                };
+                if (userName != null)
+                {
+                    var user = await _userManager.FindByNameAsync(userName);
+                    basket.AppUserId = user.Id;
 
-            await _context.Baskets.AddAsync(basket);
+                    var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                    if (countFind != null)
+                    {
+                        countFind.CountNum = 1;
+                        ViewBag.ProdCount = countFind.CountNum;
+                    }
+                }
+
+                await _context.Baskets.AddAsync(basket);
+            }
             await _context.SaveChangesAsync();
 
             return View(productCategoryViewModel);

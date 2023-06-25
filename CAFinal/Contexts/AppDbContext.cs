@@ -15,7 +15,7 @@
         public DbSet<Category> Categories { get; set; } = null!;
         public DbSet<ProductCategory> ProductCategories { get; set; } = null!;
         public DbSet<Basket> Baskets { get; set; } = null!;
-
+        public DbSet<Count> Counts { get; set; } = null!;
 
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

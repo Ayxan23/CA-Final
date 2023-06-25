@@ -1,0 +1,81 @@
+﻿@model List<Basket>
+@{
+    ViewData["Title"] = "Cart";
+}
+<!-- Cart Start -->
+<div class="container">
+    <div class="cart_title">
+        <h2 class="title_h2">Cart</h2>
+        <div class="main_title_line"></div>
+    </div>
+    <section class="cart">
+        <div class="cart_product">
+            <table class="product_table">
+                <thead class="product_thead">
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var basket in Model)
+                    {
+                        <tr class="product_tr">
+                            <td class="product_img_td">
+                                <div class="product_img">
+                                    <a asp-action="Detail" asp-controller="Shop" asp-route-id="@basket.Product.Id">
+                                        <img src="~/assets/img/@basket.Product.Image"
+                                             alt="product_img" />
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="product_name">
+                                <p class="product_head">Product:</p>
+                                <a asp-action="Detail" asp-controller="Shop" asp-route-id="@basket.Product.Id">@basket.Product.Name</a>
+                            </td>
+                            <td>
+                                <p class="product_head">Price:</p>
+                                <span class="price_prod">$@basket.Product.Price</span>
+                            </td>
+                            <td>
+                                <p class="product_head">Quantity:</p>
+                                <div class="product_count">
+                                    <a asp-route-prodId="@basket.Id" asp-route-count="-" class="count_box count_min">-</a>
+                                    <div class="count_box count_value">@basket.Count</div>
+                                    <a asp-route-prodId="@basket.Id" asp-route-count="+" class="count_box count_plus">+</a>
+                                </div>
+                            </td>
+                            <td>
+                                <p class="product_head">Subtotal:</p>
+                                <span class="price_prod">$@(@basket.Product.Price * @basket.Count)</span>
+                            </td>
+                            <td class="product_del">
+                                <a asp-route-prodId="@basket.Id" asp-route-delete="del"><i class="fa-solid fa-xmark"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="cart_total">
+            <div class="cart_total_title"><h2>Cart totals</h2></div>
+            <div class="cart_total_text">
+                <div class="cart_total_price">
+                    <p>Total</p>
+                    <p class="price_prod">
+                        @((double)Model.Sum(i => i.Product.Price * i.Count))
+                    </p>
+                </div>
+                <div class="cart_total_button">
+                    <a asp-action="Buy">Proceed to checkout</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Cart End -->
+<script src="~/assets/js/prod_price.js"></script>

@@ -10,13 +10,13 @@
         </div>
         <div class="detail_text">
             <h2>@Model.Product.Name</h2>
-            <div class="product_count_box">$<h4 class="price_count">@Model.Product.Price</h4></div>
+            <div class="product_count_box">$<h4 class="price_count">@(@Model.Product.Price * @ViewBag.ProdCount)</h4></div>
             <h5>@Html.Raw(@Model.Product.Description)</h5>
             <div class="detail_count">
                 <div class="product_count">
-                    <a class="count_box count_min">-</a>
-                    <div class="count_box count_value">1</div>
-                    <a class="count_box count_plus">+</a>
+                    <a asp-route-count="-" class="count_box count_min">-</a>
+                    <div class="count_box count_value">@ViewBag.ProdCount</div>
+                    <a asp-route-count="+" class="count_box count_plus">+</a>
                 </div>
             </div>
             <form method="post" class="detail_form">
