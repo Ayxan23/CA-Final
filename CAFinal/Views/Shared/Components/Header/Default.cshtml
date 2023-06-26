@@ -38,7 +38,7 @@
                 }
             </ul>
             <ul class="basket_ul">
-                @if ((string?)ViewContext.RouteData.Values["controller"] == "Shop")
+                @if ((string?)ViewContext.RouteData.Values["controller"] == "Shop" && (string?)ViewContext.RouteData.Values["action"] == "Index")
                 {
                     <li class="search_li">
                         <i class="fa-solid fa-magnifying-glass"></i>

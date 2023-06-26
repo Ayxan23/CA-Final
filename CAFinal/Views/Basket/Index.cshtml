@@ -1,6 +1,7 @@
 ﻿@model List<Basket>
 @{
     ViewData["Title"] = "Cart";
+   
 }
 <!-- Cart Start -->
 <div class="container">
@@ -39,7 +40,7 @@
                             </td>
                             <td>
                                 <p class="product_head">Price:</p>
-                                <span class="price_prod">$@basket.Product.Price</span>
+                                <span class="price_prod">@basket.Product.Price</span>
                             </td>
                             <td>
                                 <p class="product_head">Quantity:</p>
@@ -51,7 +52,7 @@
                             </td>
                             <td>
                                 <p class="product_head">Subtotal:</p>
-                                <span class="price_prod">$@(@basket.Product.Price * @basket.Count)</span>
+                                <span class="price_prod">@(@basket.Product.Price * @basket.Count)</span>
                             </td>
                             <td class="product_del">
                                 <a asp-route-prodId="@basket.Id" asp-route-delete="del"><i class="fa-solid fa-xmark"></i></a>

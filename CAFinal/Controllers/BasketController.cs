@@ -37,13 +37,13 @@ namespace CAFinal.Controllers
                 await _context.SaveChangesAsync();
             }
 
-            var products = await _context.Baskets.OrderByDescending(p => p.ModifiedAt).Include(p => p.Product).ToListAsync();
+            var baskets = await _context.Baskets.OrderByDescending(p => p.ModifiedAt).Include(p => p.Product).ToListAsync();
 
             var userName = HttpContext?.User?.Identity?.Name;
             if (userName != null)
             {
                 var user = await _userManager.FindByNameAsync(userName);
-                products = await _context.Baskets.OrderByDescending(p => p.ModifiedAt).Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
+                baskets = await _context.Baskets.OrderByDescending(p => p.ModifiedAt).Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
 
                 var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
                 if (countFind != null)
@@ -53,11 +53,22 @@ namespace CAFinal.Controllers
                 }
             }
 
-            return View(products);
+            TempData["TotalPrice"] = $"{(double)baskets.Sum(i => i.Product.Price * i.Count)}";
+
+            return View(baskets);
         }
 
+        [Authorize]
         public async Task<IActionResult> Buy()
         {
+            var userName = HttpContext?.User?.Identity?.Name;
+
+            var user = await _userManager.FindByNameAsync(userName);
+            var baskets = await _context.Baskets.OrderByDescending(p => p.ModifiedAt).Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
+            TempData["TotalPrice"] = $"{(double)baskets.Sum(i => i.Product.Price * i.Count)}";
+
+            ViewBag.User = user;
+
             return View();
         }
     }

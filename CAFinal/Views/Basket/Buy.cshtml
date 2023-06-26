@@ -1,4 +1,5 @@
-﻿@{
+﻿@model AddressViewModel
+@{
     ViewData["Title"] = "Buy";
 }
 <!-- Buy Start -->
@@ -11,25 +12,25 @@
         <div class="buy_product">
             <div class="cart_total_title"><h2>Customer information</h2></div>
             <div class="buy_user">
-                <h4>Username: <span>ayxan23</span></h4>
-                <h4>Email: <span>ayxan041118@gmail.com</span></h4>
-                <h4>Phone: <span>050 390 00 31</span></h4>
-                <h4>Full name: <span>Ayxan Mustafayev</span></h4>
-                <form class="buy_form">
+                <h4>Username: <span>@ViewBag.User.UserName</span></h4>
+                <h4>Email: <span>@ViewBag.User.Email</span></h4>
+                <h4>Phone: <span>@ViewBag.User.PhoneNumber</span></h4>
+                <h4>Full name: <span>@ViewBag.User.Fullname</span></h4>
+                <form class="buy_form" method="post">
                     <input class="login_input"
-                           type="text"
+                           asp-for="City"
                            placeholder="City"
                            autocomplete="address-level2" />
                     <input class="login_input"
-                           type="text"
+                           asp-for="Address"
                            placeholder="Address"
                            autocomplete="address-line1" />
                     <input class="login_input"
-                           type="text"
+                           asp-for="Postcode"
                            placeholder="Postcode"
                            autocomplete="postal-code" />
                     <input class="login_input"
-                           type="text"
+                           asp-for="Home"
                            placeholder="Home"
                            autocomplete="address-line2" />
                 </form>
@@ -40,9 +41,9 @@
             <div class="cart_total_text">
                 <div class="cart_total_price">
                     <p>Total</p>
-                    <p>$255.00</p>
+                    <p>$@TempData["TotalPrice"]</p>
                 </div>
-                <form class="cart_total_button">
+                <form class="cart_total_button" method="post">
                     <button type="submit">Buy</button>
                 </form>
             </div>

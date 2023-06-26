@@ -1470,6 +1470,10 @@ input:-webkit-autofill:active {
     display: flex;
 }
 
+.display_none {
+    display: none;
+}
+
 .text-danger {
     font-size: 18px;
     font-weight: 400;
@@ -1484,4 +1488,8 @@ input:-webkit-autofill:active {
 
 .hd_color {
     color: #c19a83;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
 }

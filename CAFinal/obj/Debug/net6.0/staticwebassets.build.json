@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bdNNLrmHp4BLsuCVUa9UJTOPkwY30pV5axNYy16Y3pc=",
+  "Hash": "crAdcPBU4bODAR//9T3MfBu/MBX0hK92tyBD7ILqzuw=",
   "Source": "CAFinal",
   "BasePath": "_content/CAFinal",
   "Mode": "Default",
@@ -1564,6 +1564,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg",
+      "SourceId": "CAFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\",
+      "BasePath": "_content/CAFinal",
+      "RelativePath": "assets/img/202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\322d4ac1-2ac0-412b-b1aa-e0d494b2c57e-cat-2-300x300.jpg",
       "SourceId": "CAFinal",
       "SourceType": "Discovered",
@@ -1834,6 +1851,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\d27af1c2-dd75-4797-b054-90f0e0c7085f-cat-1-300x300.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\d5b64198-21d2-4738-b4c2-a2905d6aa5f3-bgweb2.jpg",
+      "SourceId": "CAFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\",
+      "BasePath": "_content/CAFinal",
+      "RelativePath": "assets/img/d5b64198-21d2-4738-b4c2-a2905d6aa5f3-bgweb2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\d5b64198-21d2-4738-b4c2-a2905d6aa5f3-bgweb2.jpg"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\db014e87-02fc-4b0a-8bb2-b9a8201f1880-product-06-a-400x488.jpg",

@@ -18,8 +18,3 @@ search_input.addEventListener("blur", () => {
   search.classList.remove("display_flex");
 });
 
-var splide = new Splide(".splide", {
-    type: "fade",
-    rewind: true,
-});
-splide.mount();

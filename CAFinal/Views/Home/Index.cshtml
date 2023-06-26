@@ -1,4 +1,4 @@
-﻿@model List<Slider>
+﻿@model HomeViewModel
 @{
     ViewData["Title"] = "Home";
 }
@@ -7,7 +7,7 @@
     <div class="splide">
         <div class="splide__track">
             <div class="splide__list">
-                @foreach (var slider in Model)
+                @foreach (var slider in Model.Sliders)
                 {
                     <div class="splide__slide">
                         <div class="slide_img">
@@ -39,42 +39,19 @@
             <div class="main_title_line"></div>
         </div>
         <div class="category_boxes">
-            <a href="#">
-                <div class="category_box">
-                    <img src="~/assets/img/cat-1-300x300.jpg" alt="category" />
-                    <div class="category_box_text">
-                        <h2>Bedroom</h2>
-                        <p>6 Products</p>
+            @foreach (var category in Model.Categories)
+            {
+                <a asp-route-categoryId="@category.Id" asp-action="Index" asp-controller="Shop">
+                    <div class="category_box">
+                        <img src="~/assets/img/@category.Image" alt="category" />
+                        <div class="category_box_text">
+                            <h2>@category.Name</h2>
+                            <p>@category.ProductCategories.Count Products</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="category_box">
-                    <img src="~/assets/img/cat-4-300x300.jpg" alt="category" />
-                    <div class="category_box_text">
-                        <h2>Decor</h2>
-                        <p>6 Products</p>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="category_box">
-                    <img src="~/assets/img/cat-3-300x300.jpg" alt="category" />
-                    <div class="category_box_text">
-                        <h2>Living Room</h2>
-                        <p>6 Products</p>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="category_box">
-                    <img src="~/assets/img/cat-2-300x300.jpg" alt="category" />
-                    <div class="category_box_text">
-                        <h2>Office</h2>
-                        <p>11 Products</p>
-                    </div>
-                </div>
-            </a>
+                </a>
+            }
+
         </div>
     </section>
 </div>
@@ -88,72 +65,20 @@
             <div class="main_title_line"></div>
         </div>
         <div class="products_boxes">
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-01-a-400x488.jpg" alt="product" />
+            @foreach (var product in Model.Products)
+            {
+                <a asp-action="Detail" asp-controller="Shop" asp-route-id="@product.Id">
+                    <div class="product_box">
+                        <div class="product_box_img">
+                            <img src="~/assets/img/@product.Image" alt="product" />
+                        </div>
+                        <div class="product_box_text">
+                            <h2>@product.Name</h2>
+                            <p class="price_prod">@product.Price</p>
+                        </div>
                     </div>
-                    <div class="product_box_text">
-                        <h2>Product name 1</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-06-a-400x488.jpg" alt="product" />
-                    </div>
-                    <div class="product_box_text">
-                        <h2>Product name 2</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-09-a-400x488.jpg" alt="product" />
-                    </div>
-                    <div class="product_box_text">
-                        <h2>Product name 3</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-14-a-400x488.jpg" alt="product" />
-                    </div>
-                    <div class="product_box_text">
-                        <h2>Product name 4</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-15-a-400x488.jpg" alt="product" />
-                    </div>
-                    <div class="product_box_text">
-                        <h2>Product name 5</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
-            <a href="./html/product_detail.html">
-                <div class="product_box">
-                    <div class="product_box_img">
-                        <img src="~/assets/img/product-16-a-400x488.jpg" alt="product" />
-                    </div>
-                    <div class="product_box_text">
-                        <h2>Product name 6</h2>
-                        <p>$85.00</p>
-                    </div>
-                </div>
-            </a>
+                </a>
+            }
         </div>
     </section>
 </div>
@@ -167,50 +92,28 @@
             <div class="main_title_line"></div>
         </div>
         <div class="services_boxes">
-            <div class="service_box">
-                <i class="fa-solid fa-truck-fast"></i>
-                <div class="service_box_text">
-                    <h2>Fast Delivery</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                        tellus, luctus nec.
-                    </p>
+            @foreach (var service in Model.Services)
+            {
+                <div class="service_box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div class="service_box_text">
+                        <h2>@service.Title</h2>
+                        <p>
+                            @Html.Raw(@service.Description)
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="service_box">
-                <i class="fa-regular fa-credit-card"></i>
-                <div class="service_box_text">
-                    <h2>Free Shipping</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                        tellus, luctus nec.
-                    </p>
-                </div>
-            </div>
-
-            <div class="service_box">
-                <i class="fa-solid fa-shield-halved"></i>
-                <div class="service_box_text">
-                    <h2>Secure Checkout</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                        tellus, luctus nec.
-                    </p>
-                </div>
-            </div>
-
-            <div class="service_box">
-                <i class="fa-solid fa-cart-arrow-down"></i>
-                <div class="service_box_text">
-                    <h2>Easy Returns</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                        tellus, luctus nec.
-                    </p>
-                </div>
-            </div>
+            }
         </div>
     </section>
 </div>
 <!-- Service End -->
+<script src="~/assets/js/prod_price.js"></script>
+<script src=@Html.Raw("https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js")></script>
+<script>
+    var splide = new Splide(".splide", {
+        type: "fade",
+        rewind: true,
+    });
+    splide.mount();
+</script>
