@@ -1,0 +1,27 @@
+﻿@model Basket
+@{
+    ViewData["Title"] = "Order Delete";
+}
+<div class="info_box">
+    <div style="color: dimgray;">
+        <h2>User Info</h2>
+        <h3>Fullname: @Model.AppUser.Fullname</h3>
+        <h3>PhoneNumber: @Model.AppUser.PhoneNumber</h3>
+        <h3>Email: @Model.AppUser.Email</h3>
+        <h3>Address: @Model.AppUser.Address</h3>
+        <h2 style="margin-top: 40px;">Product Info</h2>
+        <div style="width:200px; height:auto;">
+            <img src="~/assets/img/@Model.Product.Image" style="width:100%; max-height: auto" />
+        </div>
+        <h3>Name: @Model.Product.Name</h3>
+        <h3>Price: $@Model.Product.Price</h3>
+        <h3>Count: @Model.Count</h3>
+    </div>
+
+    <div style="display: flex; gap: 15px;">
+        <a class="btn btn-info" asp-action="Index">Go Back</a>
+        <form method="post">
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+</div>

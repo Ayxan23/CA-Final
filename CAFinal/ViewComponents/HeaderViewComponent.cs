@@ -1,4 +1,6 @@
-﻿namespace CAFinal.ViewComponents
+﻿using CAFinal.Models;
+
+namespace CAFinal.ViewComponents
 {
     public class HeaderViewComponent : ViewComponent
     {
@@ -19,22 +21,27 @@
             ViewBag.UserName = userName;
 
             ViewBag.IsLog = User.Identity.IsAuthenticated;
-
             ViewBag.AdminAccess = User.IsInRole("Member");
-
+           
+            ViewBag.BasketCount = 0;
             if (userName != null)
             {
                 var user = await _userManager.FindByNameAsync(userName);
                 bool userIsActive = !user.IsActive && user != null;
                 ViewBag.UserIsActive = userIsActive;
+
+                var baskets = await _context.Baskets.OrderByDescending(p => p.Id).Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
+                if (baskets != null)
+                {
+                    ViewBag.BasketCount = baskets.Sum(b => b.Count);
+                }
             }
             else
             {
                 ViewBag.UserIsActive = false;
             }
-            
-            return View(settings);
 
+            return View(settings);
         }
     }
 }

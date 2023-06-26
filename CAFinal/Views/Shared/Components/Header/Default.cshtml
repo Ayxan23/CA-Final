@@ -49,7 +49,7 @@
                 </li>
                 <li class="@((string?)ViewContext.RouteData.Values["controller"] == "Basket" ? "hd_color" : "")">
                     <a asp-action="Index" asp-controller="Basket">
-                        <i class="fa-solid fa-basket-shopping"></i>
+                        <i class="fa-solid fa-basket-shopping"><div class="basket_count">@ViewBag.BasketCount</div></i>
                     </a>
                 </li>
                 <li class="bars_li">

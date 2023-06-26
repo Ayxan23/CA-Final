@@ -627,6 +627,7 @@ li {
 
 /* AboutUs Start */
 .about {
+    min-height: 450px;
     padding-top: 140px;
     padding-bottom: 60px;
 }
@@ -781,14 +782,15 @@ li {
     text-align: center;
 }
 
-.login_input {
+.login_input, .select_date {
     padding: 14px 12px;
     font-size: 18px;
     outline: none;
     border: 1px solid rgb(227, 227, 227);
+    font-family: "Oswald", sans-serif;
 }
 
-    .login_input::placeholder {
+    .login_input::placeholder, .select_date::placeholder {
         color: gray;
     }
 
@@ -1197,13 +1199,15 @@ td {
     color: #c89c84;
     margin-bottom: 5px;
 }
+
 .product_count_box {
-    display:flex;
+    display: flex;
     font-weight: 600;
     font-size: 24px;
     color: #c89c84;
     margin-bottom: 5px;
 }
+
 .detail_text h5 {
     font-weight: 400;
     font-size: 18px;
@@ -1237,7 +1241,7 @@ td {
 .detail_p {
     display: flex;
     gap: 8px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     font-size: 18px;
     font-weight: 500;
 }
@@ -1450,7 +1454,7 @@ input:-webkit-autofill:active {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
+    width: 50%;
 }
 
 .card_date_box {
@@ -1459,9 +1463,13 @@ input:-webkit-autofill:active {
     gap: 25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .card_date_box {
         flex-direction: column;
+    }
+
+    .card_date {
+        width: 100%
     }
 }
 /* CreditCard End */
@@ -1492,4 +1500,68 @@ input:-webkit-autofill:active {
 
 .fa-magnifying-glass {
     cursor: pointer;
+}
+
+.cart_empty {
+    margin-top: -80px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty_h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.basket_count {
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    background: black;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    bottom: -15px;
+    right: -8px;
+    aspect-ratio: 1/1;
+    border: 2px solid white;
+}
+
+.fa-basket-shopping {
+    position: relative;
+}
+
+.credit_cart_total {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .credit_cart_total p {
+        font-weight: 500;
+    }
+
+.card_month_year {
+    display: flex;
+    gap: 15px;
+}
+
+.card_date_box {
+    display: flex;
+}
+
+.select_date {
+    width: 100%;
+    color: gray;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }

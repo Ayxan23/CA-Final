@@ -365,6 +365,14 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\128e18e7-3517-4e38-bc81-39c9ff82268f-product-14-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\128e18e7-3517-4e38-bc81-39c9ff82268f-product-14-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\17ddc4e6-8675-4452-8629-f4987b7e8d86-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\17ddc4e6-8675-4452-8629-f4987b7e8d86-product-06-a-400x488.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg"
     },
@@ -391,6 +399,18 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\5dda9018-3241-4d4b-9c19-07364de35783-product-09-a-400x488.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\5dda9018-3241-4d4b-9c19-07364de35783-product-09-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\704d33e1-5ab0-49a9-926c-620290869246-cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\704d33e1-5ab0-49a9-926c-620290869246-cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\7fa92eb8-8969-4160-b132-ad5245b43745-cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\7fa92eb8-8969-4160-b132-ad5245b43745-cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9124b67e-4934-4664-ace1-f8c55540f337-cat-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\9124b67e-4934-4664-ace1-f8c55540f337-cat-1-300x300.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9f2361c4-f2c4-4efe-badf-09c002f41a20-cat-2-300x300.jpg",
@@ -457,6 +477,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\f607cfc7-0660-484a-995e-32e07eb1d1f4-bgweb2.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f97873ac-abe4-4d61-a91b-74b269f4923e-cat-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f97873ac-abe4-4d61-a91b-74b269f4923e-cat-4-300x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\hero-01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\hero-01.jpg"
     },
@@ -501,6 +525,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\product-16-a-400x488.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\card_number.js",
+      "PackagePath": "staticwebassets\\assets\\js\\card_number.js"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
@@ -511,6 +539,10 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\prod_price.js",
       "PackagePath": "staticwebassets\\assets\\js\\prod_price.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\js\\submit_basket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\submit_basket.js"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\templates\\template.html",

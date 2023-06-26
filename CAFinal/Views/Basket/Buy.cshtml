@@ -14,25 +14,36 @@
             <div class="buy_user">
                 <h4>Username: <span>@ViewBag.User.UserName</span></h4>
                 <h4>Email: <span>@ViewBag.User.Email</span></h4>
-                <h4>Phone: <span>@ViewBag.User.PhoneNumber</span></h4>
                 <h4>Full name: <span>@ViewBag.User.Fullname</span></h4>
                 <form class="buy_form" method="post">
+                    <input class="login_input"
+                           asp-for="PhoneNumber"
+                           placeholder="Phone Number" />
+                    <div><span asp-validation-for="PhoneNumber" class="text-danger"></span></div>
+
                     <input class="login_input"
                            asp-for="City"
                            placeholder="City"
                            autocomplete="address-level2" />
+                    <div><span asp-validation-for="City" class="text-danger"></span></div>
+
                     <input class="login_input"
                            asp-for="Address"
                            placeholder="Address"
                            autocomplete="address-line1" />
+                    <div><span asp-validation-for="Address" class="text-danger"></span></div>
+
                     <input class="login_input"
                            asp-for="Postcode"
                            placeholder="Postcode"
                            autocomplete="postal-code" />
+                    <div><span asp-validation-for="Postcode" class="text-danger"></span></div>
+
                     <input class="login_input"
                            asp-for="Home"
                            placeholder="Home"
                            autocomplete="address-line2" />
+                    <div><span asp-validation-for="Home" class="text-danger"></span></div>
                 </form>
             </div>
         </div>
@@ -43,11 +54,13 @@
                     <p>Total</p>
                     <p>$@TempData["TotalPrice"]</p>
                 </div>
-                <form class="cart_total_button" method="post">
-                    <button type="submit">Buy</button>
-                </form>
+                <div class="cart_total_button">
+                    <button>Buy</button>
+                </div>
             </div>
         </div>
     </section>
 </div>
 <!-- Buy End -->
+<script src="~/assets/js/submit_basket.js"></script>
+
