@@ -25,7 +25,7 @@ namespace CAFinal.Areas.Admin.Controllers
         [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Detail(int id)
         {
-            var basket = await _context.Baskets.IgnoreQueryFilters().Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
+            var basket = await _context.Baskets.IgnoreQueryFilters().Where(p => p.IsPay == true).Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
             if (basket is null)
                 return NotFound();
 
@@ -35,7 +35,7 @@ namespace CAFinal.Areas.Admin.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
-            var basket = await _context.Baskets.IgnoreQueryFilters().Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
+            var basket = await _context.Baskets.IgnoreQueryFilters().Where(p => p.IsPay == true).Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
             if (basket is null)
                 return NotFound();
 
@@ -48,7 +48,7 @@ namespace CAFinal.Areas.Admin.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
-            var basket = await _context.Baskets.IgnoreQueryFilters().Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
+            var basket = await _context.Baskets.IgnoreQueryFilters().Where(p => p.IsPay == true).Include(p => p.Product).Include(p => p.AppUser).FirstOrDefaultAsync(c => c.Id == id);
             if (basket is null)
                 return NotFound();
 

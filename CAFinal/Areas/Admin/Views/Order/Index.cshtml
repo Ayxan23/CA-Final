@@ -12,9 +12,9 @@
                         <table class="table">
                             <thead>
                                 <tr>
+                                    <th>UserName</th>
                                     <th>FullName</th>
                                     <th>Email</th>
-                                    <td>Address</td>
 
                                     <th>Actions</th>
                                 </tr>
@@ -23,9 +23,9 @@
                                 @foreach (var basket in Model)
                                 {
                                     <tr>
+                                        <td>@basket.AppUser.UserName</td>
                                         <td>@basket.AppUser.Fullname</td>
                                         <td>@basket.AppUser.Email</td>
-                                        <td>@basket.AppUser.Address</td>
                                         <td class="button_box">
                                             <a class="btn btn-success" asp-action="Detail" asp-route-id="@basket.Id">Detail</a>
                                             <a class="btn btn-danger" asp-action="Delete" asp-route-id=@basket.Id>Delete</a>
