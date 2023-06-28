@@ -365,20 +365,20 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\128e18e7-3517-4e38-bc81-39c9ff82268f-product-14-a-400x488.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\128e18e7-3517-4e38-bc81-39c9ff82268f-product-14-a-400x488.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\17ddc4e6-8675-4452-8629-f4987b7e8d86-product-06-a-400x488.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\17ddc4e6-8675-4452-8629-f4987b7e8d86-product-06-a-400x488.jpg"
-    },
-    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\202f252f-4bb6-4cf5-b794-8f8d93946e11-bgweb3.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\2c115e82-6654-4da8-9968-ef728a598f81-cat-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\2c115e82-6654-4da8-9968-ef728a598f81-cat-2-300x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\322d4ac1-2ac0-412b-b1aa-e0d494b2c57e-cat-2-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\322d4ac1-2ac0-412b-b1aa-e0d494b2c57e-cat-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\3a1c70b3-79f1-432c-917f-7b9de31d2691-product-01-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\3a1c70b3-79f1-432c-917f-7b9de31d2691-product-01-a-400x488.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\4f0a46a2-c70c-4095-b4b5-31120b4d0311-bg-02.jpg",
@@ -401,20 +401,52 @@
       "PackagePath": "staticwebassets\\assets\\img\\5dda9018-3241-4d4b-9c19-07364de35783-product-09-a-400x488.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\66e3fd3b-dd38-4419-a3af-d70eb0104f19-product-14-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\66e3fd3b-dd38-4419-a3af-d70eb0104f19-product-14-a-400x488.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\704d33e1-5ab0-49a9-926c-620290869246-cat-1-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\704d33e1-5ab0-49a9-926c-620290869246-cat-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\7874f7d1-e2e7-4c89-8fac-e6c5ec5faf29-product-16-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\7874f7d1-e2e7-4c89-8fac-e6c5ec5faf29-product-16-a-400x488.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\7fa92eb8-8969-4160-b132-ad5245b43745-cat-1-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\7fa92eb8-8969-4160-b132-ad5245b43745-cat-1-300x300.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\88b97114-f538-4da8-8dde-d803f9785de8-cat-3-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\88b97114-f538-4da8-8dde-d803f9785de8-cat-3-300x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9124b67e-4934-4664-ace1-f8c55540f337-cat-1-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\9124b67e-4934-4664-ace1-f8c55540f337-cat-1-300x300.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\98a58898-ef3d-4b11-a182-dec316a43c9b-bgweb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\98a58898-ef3d-4b11-a182-dec316a43c9b-bgweb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9c9d6c66-3b39-4754-97a1-c30b7859982c-product-09-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\9c9d6c66-3b39-4754-97a1-c30b7859982c-product-09-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9d841668-35ed-4cb4-acc3-c7bda9b1cdcb-bg-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\9d841668-35ed-4cb4-acc3-c7bda9b1cdcb-bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9dab70d6-96b4-42bd-b5be-735ece8a66ac-cat-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\9dab70d6-96b4-42bd-b5be-735ece8a66ac-cat-4-300x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\9f2361c4-f2c4-4efe-badf-09c002f41a20-cat-2-300x300.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\9f2361c4-f2c4-4efe-badf-09c002f41a20-cat-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\a1412276-6b8e-4dd8-83c2-10c1d7cd19b9-product-06-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\a1412276-6b8e-4dd8-83c2-10c1d7cd19b9-product-06-a-400x488.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\a47b0984-9e3f-4f2c-ab1b-6d98e32c0c09-product-06-a-400x488.jpg",
@@ -423,6 +455,22 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\a7083688-2af7-4a7a-8c78-2b081ac8cd5a-hero-01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\a7083688-2af7-4a7a-8c78-2b081ac8cd5a-hero-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\aa9933e7-828e-40f9-9aa6-1a234c02a6eb-product-15-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aa9933e7-828e-40f9-9aa6-1a234c02a6eb-product-15-a-400x488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\ab1e33aa-7e8f-4736-ab09-9e8addb8fc5e-cat-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ab1e33aa-7e8f-4736-ab09-9e8addb8fc5e-cat-4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\b5da945d-b56a-4092-a782-4c5379873ab0-hero-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b5da945d-b56a-4092-a782-4c5379873ab0-hero-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\b9831d18-01af-4eda-bbfb-a8bff447f13f-cat-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b9831d18-01af-4eda-bbfb-a8bff447f13f-cat-2-300x300.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\bg-02.jpg",
@@ -473,8 +521,16 @@
       "PackagePath": "staticwebassets\\assets\\img\\f3ed23fc-4b1a-4beb-8af2-37834dc7b776-cat-4-300x300.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f4386954-eeaf-4e13-ab4e-dd8b191a3680-product-09-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f4386954-eeaf-4e13-ab4e-dd8b191a3680-product-09-a-400x488.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f607cfc7-0660-484a-995e-32e07eb1d1f4-bgweb2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\f607cfc7-0660-484a-995e-32e07eb1d1f4-bgweb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f6639eee-87d6-4e72-818e-8aef4ddeea25-product-14-a-400x488.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\f6639eee-87d6-4e72-818e-8aef4ddeea25-product-14-a-400x488.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\f97873ac-abe4-4d61-a91b-74b269f4923e-cat-4-300x300.jpg",

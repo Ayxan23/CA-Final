@@ -140,7 +140,7 @@
 
             slider.Title = sliderViewModel.Title;
             slider.Description = sliderViewModel.Description;
-            slider.Description = sliderViewModel.Description;
+            slider.Offer = sliderViewModel.Offer;
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

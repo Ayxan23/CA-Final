@@ -140,6 +140,11 @@
             if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
                 return BadRequest();
 
+            var userName = HttpContext?.User?.Identity?.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var baskets = await _context.Baskets.Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
+            TempData["TotalPrice"] = $"{(double)baskets.Sum(i => i.Product.Price * i.Count)}";
+
             if (!ModelState.IsValid)
                 return View();
 
@@ -148,35 +153,32 @@
                 ModelState.AddModelError("Year", "Year is Invalid");
                 return View();
             }
+            if (cartViewModel.Year == DateTime.Now.Year && cartViewModel.Month < DateTime.Now.Month)
+            {
+                ModelState.AddModelError("Month", "Month is Invalid");
+                return View();
+            }
             if (cartViewModel.Cvv < 100)
             {
                 ModelState.AddModelError("Cvv", "Cvv is Invalid");
                 return View();
             }
-            if (cartViewModel.Month >= 12 && cartViewModel.Month < 0)
+            if (cartViewModel.Month >= 12 || cartViewModel.Month < 0)
             {
                 ModelState.AddModelError("Month", "Month is Invalid");
                 return View();
             }
-            if (cartViewModel.CardNumber < 1000000000000000)
+            if (cartViewModel.CardNumber.ToString().Length != 16)
             {
                 ModelState.AddModelError("CardNumber", "CardNumber is Invalid");
                 return View();
             }
-
-            var userName = HttpContext?.User?.Identity?.Name;
-            if (userName != null)
+            foreach (var basket in baskets)
             {
-                var user = await _userManager.FindByNameAsync(userName);
-                var baskets = await _context.Baskets.Where(p => p.AppUserId == user.Id).Include(p => p.Product).ToListAsync();
-                TempData["TotalPrice"] = $"{(double)baskets.Sum(i => i.Product.Price * i.Count)}";
-
-                foreach (var basket in baskets)
-                {
-                    basket.IsPay = true;
-                }
-                await _context.SaveChangesAsync();
+                basket.IsPay = true;
             }
+            await _context.SaveChangesAsync();
+
             return RedirectToAction("Index", "Shop");
         }
 

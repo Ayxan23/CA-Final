@@ -1,4 +1,6 @@
-﻿namespace CAFinal.Areas.Admin.Controllers
+﻿using CAFinal.Areas.Admin.ViewModels;
+
+namespace CAFinal.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class SettingController : Controller
@@ -31,6 +33,12 @@
         {
             if (!ModelState.IsValid)
                 return View();
+
+            if (await _context.Settings.AnyAsync(c => c.Key == setting.Key))
+            {
+                ModelState.AddModelError("Key", "Key already exist");
+                return View();
+            }
 
             await _context.Settings.AddAsync(setting);
             await _context.SaveChangesAsync();
@@ -65,6 +73,12 @@
         {
             if (!ModelState.IsValid)
                 return View();
+
+            if (await _context.Settings.AnyAsync(c => c.Key == setting.Key))
+            {
+                ModelState.AddModelError("Key", "Key already exist");
+                return View();
+            }
 
             var foundSetting = await _context.Settings.FirstOrDefaultAsync(s => s.Id == id);
             if (foundSetting is null)

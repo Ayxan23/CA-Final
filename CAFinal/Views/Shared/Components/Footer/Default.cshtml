@@ -9,20 +9,20 @@
             <div class="footer_box footer_box_one">
                 <div class="footer_logo">
                     <a asp-action="Index" asp-controller="Home">
-                        <img src="~/assets/img/@*@Model["FooterLogo"]*@" alt="footer_logo" />
+                        <img src="~/assets/img/@Model["FooterLogo"]" alt="footer_logo" />
                     </a>
                 </div>
                 <p>
-                 @*   @Model["FooterDesc"]*@
+                    @Model["FooterDesc"]
                 </p>
             </div>
             <div class="footer_box">
                 <h4>Social Media</h4>
                 <div class="footer_social">
-               @*     <a href="@Model["FooterFb"]"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="@Model["FooterFb"]"><i class="fa-brands fa-facebook"></i></a>
                     <a href="@Model["FooterInsta"]"><i class="fa-brands fa-instagram"></i></a>
                     <a href="@Model["FooterTw"]"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="@Model["FooterYt"]"><i class="fa-brands fa-youtube"></i></a>*@
+                    <a href="@Model["FooterYt"]"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer_box">
@@ -37,9 +37,9 @@
             <div class="footer_box">
                 <h4>Contact</h4>
                 <div class="footer_contaxt">
-                   @* <p>@Model["FooterAdress"]</p>
+                    <p>@Model["FooterAdress"]</p>
                     <p>@Model["FooterMail"]</p>
-                    <p>@Model["FooterNum"]</p>*@
+                    <p>@Model["FooterNum"]</p>
                 </div>
             </div>
         </section>
