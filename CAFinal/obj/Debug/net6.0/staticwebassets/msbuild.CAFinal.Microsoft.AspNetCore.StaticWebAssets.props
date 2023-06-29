@@ -2000,6 +2000,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d27af1c2-dd75-4797-b054-90f0e0c7085f-cat-1-300x300.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CAFinal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CAFinal</BasePath>
+      <RelativePath>assets/img/d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d5b64198-21d2-4738-b4c2-a2905d6aa5f3-bgweb2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CAFinal</SourceId>

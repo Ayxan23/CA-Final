@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJbR7unKrGmRaRyZgouWIpL0WJQwfCP1oGPSJUIS8bk=",
+  "Hash": "/KSIQzMeNZ/GmX74Y4nb4dIMafTttgX80aVjBZUhoVQ=",
   "Source": "CAFinal",
   "BasePath": "_content/CAFinal",
   "Mode": "Default",
@@ -2140,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\d27af1c2-dd75-4797-b054-90f0e0c7085f-cat-1-300x300.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg",
+      "SourceId": "CAFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\",
+      "BasePath": "_content/CAFinal",
+      "RelativePath": "assets/img/d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\d3d34e05-cb1f-4487-85a2-4cef1c1181e4-product-01-a-400x488.jpg"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\CA FP\\CAFinal\\CAFinal\\wwwroot\\assets\\img\\d5b64198-21d2-4738-b4c2-a2905d6aa5f3-bgweb2.jpg",

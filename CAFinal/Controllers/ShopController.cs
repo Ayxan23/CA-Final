@@ -145,19 +145,16 @@ namespace CAFinal.Controllers
             };
 
             var userName = HttpContext?.User?.Identity?.Name;
-            var basketFind = await _context.Baskets.FirstOrDefaultAsync(c => c.ProductId == product.Id);
-            if (basketFind != null)
+            var user = await _userManager.FindByNameAsync(userName);
+            var basketFind = await _context.Baskets.FirstOrDefaultAsync(c => c.ProductId == product.Id && c.AppUserId == user.Id);
+            if (basketFind != null && userName != null)
             {
                 basketFind.Count += prodCount;
-                if (userName != null)
+                var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
+                if (countFind != null)
                 {
-                    var user = await _userManager.FindByNameAsync(userName);
-                    var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
-                    if (countFind != null)
-                    {
-                        countFind.CountNum = 1;
-                        ViewBag.ProdCount = countFind.CountNum;
-                    }
+                    countFind.CountNum = 1;
+                    ViewBag.ProdCount = countFind.CountNum;
                 }
             }
             else
@@ -170,7 +167,6 @@ namespace CAFinal.Controllers
                 };
                 if (userName != null)
                 {
-                    var user = await _userManager.FindByNameAsync(userName);
                     basket.AppUserId = user.Id;
 
                     var countFind = await _context.Counts.FirstOrDefaultAsync(c => c.UserId == user.Id);
